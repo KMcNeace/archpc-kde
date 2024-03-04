@@ -1,0 +1,5 @@
+2024/02/28-08:47:54.652 bdc6 Creating DB /home/kilan/.config/discord/Local Storage/leveldb since it was missing.
+2024/02/28-08:47:54.730 bdc6 Reusing MANIFEST /home/kilan/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/28-08:51:56.517 bda6 Level-0 table #5: started
+2024/02/28-08:51:56.535 bda6 Level-0 table #5: 2963097 bytes OK
+2024/02/28-08:51:56.535 bda6 Delete type=0 #3

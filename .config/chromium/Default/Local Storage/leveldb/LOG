@@ -1,0 +1,24 @@
+2024/03/04-15:56:29.831 4 Reusing MANIFEST /home/kilan/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/04-15:56:29.834 4 Recovering log #34
+2024/03/04-15:56:29.834 4 Reusing old log /home/kilan/.config/chromium/Default/Local Storage/leveldb/000034.log 
+2024/03/04-15:56:52.907 4 Level-0 table #38: started
+2024/03/04-15:56:52.929 4 Level-0 table #38: 33701 bytes OK
+2024/03/04-15:56:52.930 4 Delete type=0 #34
+2024/03/04-16:07:09.527 6 Level-0 table #40: started
+2024/03/04-16:07:09.556 6 Level-0 table #40: 36788 bytes OK
+2024/03/04-16:07:09.557 6 Delete type=0 #37
+2024/03/04-16:07:09.557 6 Compacting 4@0 + 1@1 files
+2024/03/04-16:07:09.599 6 Generated table #41@0: 507 keys, 123948 bytes
+2024/03/04-16:07:09.599 6 Compacted 4@0 + 1@1 files => 123948 bytes
+2024/03/04-16:07:09.600 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/04-16:07:09.600 6 Delete type=2 #40
+2024/03/04-16:07:09.600 6 Delete type=2 #32
+2024/03/04-16:07:09.600 6 Delete type=2 #35
+2024/03/04-16:07:09.600 6 Delete type=2 #29
+2024/03/04-16:07:09.600 6 Delete type=2 #38
+2024/03/04-16:13:02.876 6 Level-0 table #43: started
+2024/03/04-16:13:02.878 6 Level-0 table #43: 57375 bytes OK
+2024/03/04-16:13:02.879 6 Delete type=0 #39
+2024/03/04-16:28:11.945 4 Level-0 table #45: started
+2024/03/04-16:28:11.953 4 Level-0 table #45: 20029 bytes OK
+2024/03/04-16:28:11.955 4 Delete type=0 #42

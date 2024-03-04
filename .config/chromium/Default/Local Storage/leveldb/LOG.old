@@ -1,0 +1,6 @@
+2024/03/04-15:55:24.230 4 Reusing MANIFEST /home/kilan/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/04-15:55:24.235 4 Recovering log #31
+2024/03/04-15:55:24.235 4 Reusing old log /home/kilan/.config/chromium/Default/Local Storage/leveldb/000031.log 
+2024/03/04-15:55:52.927 4 Level-0 table #35: started
+2024/03/04-15:55:52.928 4 Level-0 table #35: 28001 bytes OK
+2024/03/04-15:55:52.930 4 Delete type=0 #31

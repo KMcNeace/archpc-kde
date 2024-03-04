@@ -1,0 +1,35 @@
+[file:///home/kilan/.config/alacritty/alacritty.toml]
+Bookmarks=
+Checksum=a5b5afcc4ca96eb320c1f851c73334f5cb0cb60b
+Encoding=UTF-8
+Highlighting=TOML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=TOML
+Mode Set By User=false
+Time=2024,3,4,22,11,29.534
+URL=file:///home/kilan/.config/alacritty/alacritty.toml
+
+[file:///home/kilan/.config/alacritty/alacritty.yml]
+Bookmarks=
+Checksum=b0e5fcaac8bbe61845aa931d7a605fb28ba0a559
+Encoding=UTF-8
+Highlighting=YAML
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=YAML
+Mode Set By User=false
+Time=2024,3,4,22,11,30.26
+URL=file:///home/kilan/.config/alacritty/alacritty.yml
+
+[file:///home/kilan/.zshrc]
+Bookmarks=
+Checksum=a743fa80a97fb2bd7ea9af624be1757a315e1e15
+Encoding=UTF-8
+Highlighting=Zsh
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Zsh
+Mode Set By User=false
+Time=2024,3,4,22,34,43.247
+URL=file:///home/kilan/.zshrc

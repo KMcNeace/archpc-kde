@@ -1,0 +1,8 @@
+[FileDialogSize]
+3440x1440 screen: Height=758
+3440x1440 screen: Width=1740
+
+[KFileDialog Settings]
+Recent Files[$e]=2024-03-04_16-19_1.png,file:$HOME/Pictures/screenshots/2024-03-04_16-19.png,file:$HOME/Pictures/screenshots/2024-03-04_16-19_1.png
+Recent URLs[$e]=file:$HOME/Pictures/screenshots/
+detailViewIconSize=16

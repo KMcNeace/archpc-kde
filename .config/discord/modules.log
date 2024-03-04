@@ -1,0 +1,602 @@
+2024-02-28T14:47:54.949Z [Modules] Modules initializing
+2024-02-28T14:47:54.949Z [Modules] Distribution: remote
+2024-02-28T14:47:54.950Z [Modules] Host updates: enabled
+2024-02-28T14:47:54.950Z [Modules] Module updates: enabled
+2024-02-28T14:47:54.950Z [Modules] Module install path: /home/kilan/.config/discord/0.0.43/modules
+2024-02-28T14:47:54.950Z [Modules] Module installed file path: /home/kilan/.config/discord/0.0.43/modules/installed.json
+2024-02-28T14:47:54.950Z [Modules] Module download path: /home/kilan/.config/discord/0.0.43/modules/pending
+2024-02-28T14:47:56.138Z [Modules] Bootstrapping...
+2024-02-28T14:47:56.139Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-02-28T14:47:56.141Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-02-28T14:47:56.141Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-02-28T14:47:56.142Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-02-28T14:47:56.142Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-02-28T14:47:56.143Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-02-28T14:47:56.143Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-02-28T14:47:56.144Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-02-28T14:47:56.193Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-02-28T14:47:56.195Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-02-28T14:47:56.195Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-02-28T14:47:56.195Z [Modules] Checking for host updates.
+2024-02-28T14:47:56.565Z [Modules] Host is up to date.
+2024-02-28T14:47:56.565Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-28T14:47:56.672Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-02-28T14:47:56.672Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-02-28T14:47:56.672Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-02-28T14:47:56.672Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-02-28T14:47:56.672Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-02-28T14:47:56.673Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-02-28T14:47:56.673Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-02-28T14:47:57.066Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 1%
+2024-02-28T14:47:57.088Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 2%
+2024-02-28T14:47:57.124Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 3%
+2024-02-28T14:47:57.138Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 4%
+2024-02-28T14:47:57.156Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 5%
+2024-02-28T14:47:57.169Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 6%
+2024-02-28T14:47:57.180Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 7%
+2024-02-28T14:47:57.190Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 8%
+2024-02-28T14:47:57.199Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 9%
+2024-02-28T14:47:57.208Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 10%
+2024-02-28T14:47:57.214Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 11%
+2024-02-28T14:47:57.222Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 12%
+2024-02-28T14:47:57.226Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 13%
+2024-02-28T14:47:57.232Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 14%
+2024-02-28T14:47:57.240Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 15%
+2024-02-28T14:47:57.245Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 16%
+2024-02-28T14:47:57.308Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 17%
+2024-02-28T14:47:57.311Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 18%
+2024-02-28T14:47:57.316Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 20%
+2024-02-28T14:47:57.320Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 21%
+2024-02-28T14:47:57.324Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 24%
+2024-02-28T14:47:57.330Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 26%
+2024-02-28T14:47:57.333Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 28%
+2024-02-28T14:47:57.339Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 30%
+2024-02-28T14:47:57.341Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 33%
+2024-02-28T14:47:57.342Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 40%
+2024-02-28T14:47:57.344Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 41%
+2024-02-28T14:47:57.347Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 42%
+2024-02-28T14:47:57.351Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 43%
+2024-02-28T14:47:57.356Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 44%
+2024-02-28T14:47:57.358Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 45%
+2024-02-28T14:47:57.363Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 46%
+2024-02-28T14:47:57.367Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 47%
+2024-02-28T14:47:57.371Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 48%
+2024-02-28T14:47:57.377Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 49%
+2024-02-28T14:47:57.379Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 50%
+2024-02-28T14:47:57.381Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 51%
+2024-02-28T14:47:57.386Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 52%
+2024-02-28T14:47:57.389Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 53%
+2024-02-28T14:47:57.391Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 54%
+2024-02-28T14:47:57.395Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 55%
+2024-02-28T14:47:57.453Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 56%
+2024-02-28T14:47:57.456Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 57%
+2024-02-28T14:47:57.460Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 58%
+2024-02-28T14:47:57.462Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 59%
+2024-02-28T14:47:57.464Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 60%
+2024-02-28T14:47:57.470Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 63%
+2024-02-28T14:47:57.474Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 65%
+2024-02-28T14:47:57.477Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 66%
+2024-02-28T14:47:57.483Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 68%
+2024-02-28T14:47:57.486Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 69%
+2024-02-28T14:47:57.487Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 72%
+2024-02-28T14:47:57.490Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 73%
+2024-02-28T14:47:57.492Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 74%
+2024-02-28T14:47:57.494Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 77%
+2024-02-28T14:47:57.494Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 79%
+2024-02-28T14:47:57.499Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 80%
+2024-02-28T14:47:57.501Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 83%
+2024-02-28T14:47:57.508Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 86%
+2024-02-28T14:47:57.509Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 88%
+2024-02-28T14:47:57.510Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 91%
+2024-02-28T14:47:57.511Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 92%
+2024-02-28T14:47:57.514Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 93%
+2024-02-28T14:47:57.516Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 94%
+2024-02-28T14:47:57.558Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 95%
+2024-02-28T14:47:57.558Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 96%
+2024-02-28T14:47:57.560Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 97%
+2024-02-28T14:47:57.562Z [Modules] Streaming discord_desktop_core@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 100%
+2024-02-28T14:47:57.564Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-02-28T14:47:57.564Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-02-28T14:47:57.717Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 1%
+2024-02-28T14:47:57.720Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 2%
+2024-02-28T14:47:57.722Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 3%
+2024-02-28T14:47:57.723Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 4%
+2024-02-28T14:47:57.726Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 5%
+2024-02-28T14:47:57.730Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 6%
+2024-02-28T14:47:57.732Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 7%
+2024-02-28T14:47:57.734Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 8%
+2024-02-28T14:47:57.737Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 9%
+2024-02-28T14:47:57.738Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 10%
+2024-02-28T14:47:57.741Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 11%
+2024-02-28T14:47:57.746Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 12%
+2024-02-28T14:47:57.747Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 13%
+2024-02-28T14:47:57.749Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 14%
+2024-02-28T14:47:57.751Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 15%
+2024-02-28T14:47:57.754Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 16%
+2024-02-28T14:47:57.756Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 17%
+2024-02-28T14:47:57.760Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 18%
+2024-02-28T14:47:57.762Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 19%
+2024-02-28T14:47:57.764Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 20%
+2024-02-28T14:47:57.767Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 21%
+2024-02-28T14:47:57.826Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 23%
+2024-02-28T14:47:57.827Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 24%
+2024-02-28T14:47:57.829Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 25%
+2024-02-28T14:47:57.832Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 27%
+2024-02-28T14:47:57.835Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 28%
+2024-02-28T14:47:57.837Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 29%
+2024-02-28T14:47:57.841Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 33%
+2024-02-28T14:47:57.845Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 34%
+2024-02-28T14:47:57.848Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 37%
+2024-02-28T14:47:57.849Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 38%
+2024-02-28T14:47:57.851Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 39%
+2024-02-28T14:47:57.854Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 40%
+2024-02-28T14:47:57.857Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 41%
+2024-02-28T14:47:57.862Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 42%
+2024-02-28T14:47:57.865Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 45%
+2024-02-28T14:47:57.870Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 47%
+2024-02-28T14:47:57.871Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 48%
+2024-02-28T14:47:57.872Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 52%
+2024-02-28T14:47:57.874Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 56%
+2024-02-28T14:47:57.875Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 61%
+2024-02-28T14:47:57.876Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 62%
+2024-02-28T14:47:57.878Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 63%
+2024-02-28T14:47:57.881Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 64%
+2024-02-28T14:47:57.884Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 65%
+2024-02-28T14:47:57.885Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 66%
+2024-02-28T14:47:57.887Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 67%
+2024-02-28T14:47:57.889Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 68%
+2024-02-28T14:47:57.892Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 69%
+2024-02-28T14:47:57.952Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 72%
+2024-02-28T14:47:57.954Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 75%
+2024-02-28T14:47:57.955Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 82%
+2024-02-28T14:47:57.959Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 85%
+2024-02-28T14:47:57.962Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 86%
+2024-02-28T14:47:57.965Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 87%
+2024-02-28T14:47:57.967Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 88%
+2024-02-28T14:47:57.968Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 89%
+2024-02-28T14:47:57.969Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 90%
+2024-02-28T14:47:57.971Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 91%
+2024-02-28T14:47:57.972Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 92%
+2024-02-28T14:47:57.977Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 95%
+2024-02-28T14:47:57.979Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 96%
+2024-02-28T14:47:57.980Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 99%
+2024-02-28T14:47:57.981Z [Modules] Streaming discord_erlpack@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 100%
+2024-02-28T14:47:57.981Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-02-28T14:47:57.981Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-02-28T14:47:58.202Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 1%
+2024-02-28T14:47:58.214Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 2%
+2024-02-28T14:47:58.278Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 3%
+2024-02-28T14:47:58.288Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 4%
+2024-02-28T14:47:58.300Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 5%
+2024-02-28T14:47:58.313Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 6%
+2024-02-28T14:47:58.320Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 7%
+2024-02-28T14:47:58.324Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 8%
+2024-02-28T14:47:58.324Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 10%
+2024-02-28T14:47:58.333Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 11%
+2024-02-28T14:47:58.398Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 12%
+2024-02-28T14:47:58.407Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 13%
+2024-02-28T14:47:58.421Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 14%
+2024-02-28T14:47:58.431Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 15%
+2024-02-28T14:47:58.443Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 16%
+2024-02-28T14:47:58.453Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 17%
+2024-02-28T14:47:58.454Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 18%
+2024-02-28T14:47:58.455Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 20%
+2024-02-28T14:47:58.522Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 21%
+2024-02-28T14:47:58.532Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 22%
+2024-02-28T14:47:58.541Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 23%
+2024-02-28T14:47:58.550Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 24%
+2024-02-28T14:47:58.560Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 25%
+2024-02-28T14:47:58.570Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 26%
+2024-02-28T14:47:58.580Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 27%
+2024-02-28T14:47:58.580Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 28%
+2024-02-28T14:47:58.582Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 29%
+2024-02-28T14:47:58.650Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 30%
+2024-02-28T14:47:58.664Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 31%
+2024-02-28T14:47:58.673Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 32%
+2024-02-28T14:47:58.673Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 33%
+2024-02-28T14:47:58.695Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 34%
+2024-02-28T14:47:58.702Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 35%
+2024-02-28T14:47:58.703Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 37%
+2024-02-28T14:47:58.705Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 38%
+2024-02-28T14:47:58.720Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 39%
+2024-02-28T14:47:58.789Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 40%
+2024-02-28T14:47:58.797Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 41%
+2024-02-28T14:47:58.810Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 42%
+2024-02-28T14:47:58.820Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 43%
+2024-02-28T14:47:58.825Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 44%
+2024-02-28T14:47:58.833Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 45%
+2024-02-28T14:47:58.838Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 46%
+2024-02-28T14:47:58.839Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 47%
+2024-02-28T14:47:58.844Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 48%
+2024-02-28T14:47:58.855Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 49%
+2024-02-28T14:47:58.915Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 50%
+2024-02-28T14:47:58.931Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 51%
+2024-02-28T14:47:59.006Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 52%
+2024-02-28T14:47:59.006Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 54%
+2024-02-28T14:47:59.031Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 55%
+2024-02-28T14:47:59.094Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 56%
+2024-02-28T14:47:59.095Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 58%
+2024-02-28T14:47:59.096Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 62%
+2024-02-28T14:47:59.097Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 65%
+2024-02-28T14:47:59.117Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 66%
+2024-02-28T14:47:59.118Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 67%
+2024-02-28T14:47:59.142Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 69%
+2024-02-28T14:47:59.173Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 70%
+2024-02-28T14:47:59.174Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 71%
+2024-02-28T14:47:59.243Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 72%
+2024-02-28T14:47:59.243Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 75%
+2024-02-28T14:47:59.349Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 76%
+2024-02-28T14:47:59.350Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 78%
+2024-02-28T14:47:59.350Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 80%
+2024-02-28T14:47:59.350Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 82%
+2024-02-28T14:47:59.351Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 85%
+2024-02-28T14:47:59.369Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 86%
+2024-02-28T14:47:59.374Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 87%
+2024-02-28T14:47:59.450Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 88%
+2024-02-28T14:47:59.450Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 92%
+2024-02-28T14:47:59.451Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 93%
+2024-02-28T14:47:59.451Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 94%
+2024-02-28T14:47:59.470Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 95%
+2024-02-28T14:47:59.485Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 96%
+2024-02-28T14:47:59.485Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 97%
+2024-02-28T14:47:59.497Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 98%
+2024-02-28T14:47:59.498Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 99%
+2024-02-28T14:47:59.503Z [Modules] Streaming discord_spellcheck@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 100%
+2024-02-28T14:47:59.504Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-02-28T14:47:59.504Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-02-28T14:47:59.699Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 1%
+2024-02-28T14:47:59.702Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 2%
+2024-02-28T14:47:59.706Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 3%
+2024-02-28T14:47:59.709Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 4%
+2024-02-28T14:47:59.713Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 5%
+2024-02-28T14:47:59.717Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 6%
+2024-02-28T14:47:59.720Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 7%
+2024-02-28T14:47:59.723Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 8%
+2024-02-28T14:47:59.727Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 9%
+2024-02-28T14:47:59.730Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 10%
+2024-02-28T14:47:59.732Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 11%
+2024-02-28T14:47:59.736Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 12%
+2024-02-28T14:47:59.739Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 13%
+2024-02-28T14:47:59.742Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 14%
+2024-02-28T14:47:59.746Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 15%
+2024-02-28T14:47:59.750Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 16%
+2024-02-28T14:47:59.753Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 17%
+2024-02-28T14:47:59.818Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 18%
+2024-02-28T14:47:59.823Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 19%
+2024-02-28T14:47:59.825Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 21%
+2024-02-28T14:47:59.829Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 22%
+2024-02-28T14:47:59.833Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 23%
+2024-02-28T14:47:59.949Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 25%
+2024-02-28T14:47:59.950Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 37%
+2024-02-28T14:47:59.950Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 45%
+2024-02-28T14:47:59.951Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 54%
+2024-02-28T14:47:59.951Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 66%
+2024-02-28T14:47:59.952Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 67%
+2024-02-28T14:47:59.952Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 70%
+2024-02-28T14:47:59.956Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 71%
+2024-02-28T14:47:59.961Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 72%
+2024-02-28T14:48:00.020Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 74%
+2024-02-28T14:48:00.024Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 76%
+2024-02-28T14:48:00.024Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 78%
+2024-02-28T14:48:00.045Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 80%
+2024-02-28T14:48:00.047Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 81%
+2024-02-28T14:48:00.051Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 82%
+2024-02-28T14:48:00.052Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 84%
+2024-02-28T14:48:00.061Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 85%
+2024-02-28T14:48:00.063Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 87%
+2024-02-28T14:48:00.065Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 90%
+2024-02-28T14:48:00.065Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 96%
+2024-02-28T14:48:00.094Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 99%
+2024-02-28T14:48:00.094Z [Modules] Streaming discord_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 100%
+2024-02-28T14:48:00.095Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-02-28T14:48:00.095Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-02-28T14:48:00.316Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 1%
+2024-02-28T14:48:00.344Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 2%
+2024-02-28T14:48:00.475Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 3%
+2024-02-28T14:48:00.476Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 4%
+2024-02-28T14:48:00.476Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 5%
+2024-02-28T14:48:00.526Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 6%
+2024-02-28T14:48:00.528Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 7%
+2024-02-28T14:48:00.536Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 8%
+2024-02-28T14:48:00.625Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 9%
+2024-02-28T14:48:00.758Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 10%
+2024-02-28T14:48:00.759Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 11%
+2024-02-28T14:48:00.759Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 12%
+2024-02-28T14:48:00.760Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 13%
+2024-02-28T14:48:00.766Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 14%
+2024-02-28T14:48:00.767Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 15%
+2024-02-28T14:48:00.903Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 16%
+2024-02-28T14:48:00.914Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 17%
+2024-02-28T14:48:00.940Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 18%
+2024-02-28T14:48:00.978Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 19%
+2024-02-28T14:48:00.979Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 20%
+2024-02-28T14:48:00.980Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 21%
+2024-02-28T14:48:00.994Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 22%
+2024-02-28T14:48:01.076Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 23%
+2024-02-28T14:48:01.109Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 24%
+2024-02-28T14:48:01.132Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 25%
+2024-02-28T14:48:01.132Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 26%
+2024-02-28T14:48:01.214Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 27%
+2024-02-28T14:48:01.249Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 28%
+2024-02-28T14:48:01.355Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 29%
+2024-02-28T14:48:01.362Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 30%
+2024-02-28T14:48:01.363Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 31%
+2024-02-28T14:48:01.368Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 32%
+2024-02-28T14:48:01.369Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 33%
+2024-02-28T14:48:01.448Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 34%
+2024-02-28T14:48:01.481Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 35%
+2024-02-28T14:48:01.546Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 36%
+2024-02-28T14:48:01.605Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 37%
+2024-02-28T14:48:01.606Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 38%
+2024-02-28T14:48:01.664Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 39%
+2024-02-28T14:48:01.665Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 40%
+2024-02-28T14:48:01.670Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 41%
+2024-02-28T14:48:01.671Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 42%
+2024-02-28T14:48:01.748Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 43%
+2024-02-28T14:48:01.768Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 44%
+2024-02-28T14:48:01.768Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 45%
+2024-02-28T14:48:01.850Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 46%
+2024-02-28T14:48:01.879Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 47%
+2024-02-28T14:48:01.899Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 48%
+2024-02-28T14:48:01.905Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 49%
+2024-02-28T14:48:01.924Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 50%
+2024-02-28T14:48:02.006Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 51%
+2024-02-28T14:48:02.036Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 52%
+2024-02-28T14:48:02.051Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 53%
+2024-02-28T14:48:02.056Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 54%
+2024-02-28T14:48:02.086Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 55%
+2024-02-28T14:48:02.167Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 56%
+2024-02-28T14:48:02.194Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 57%
+2024-02-28T14:48:02.202Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 58%
+2024-02-28T14:48:02.216Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 59%
+2024-02-28T14:48:02.296Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 60%
+2024-02-28T14:48:02.328Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 61%
+2024-02-28T14:48:02.354Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 62%
+2024-02-28T14:48:02.355Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 63%
+2024-02-28T14:48:02.419Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 64%
+2024-02-28T14:48:02.447Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 65%
+2024-02-28T14:48:02.591Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 66%
+2024-02-28T14:48:02.591Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 67%
+2024-02-28T14:48:02.592Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 68%
+2024-02-28T14:48:02.603Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 69%
+2024-02-28T14:48:02.610Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 70%
+2024-02-28T14:48:02.615Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 71%
+2024-02-28T14:48:02.698Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 72%
+2024-02-28T14:48:02.726Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 73%
+2024-02-28T14:48:02.734Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 74%
+2024-02-28T14:48:02.740Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 75%
+2024-02-28T14:48:02.775Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 76%
+2024-02-28T14:48:02.851Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 77%
+2024-02-28T14:48:02.878Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 78%
+2024-02-28T14:48:02.887Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 79%
+2024-02-28T14:48:02.893Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 80%
+2024-02-28T14:48:02.927Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 81%
+2024-02-28T14:48:03.009Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 82%
+2024-02-28T14:48:03.026Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 83%
+2024-02-28T14:48:03.030Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 84%
+2024-02-28T14:48:03.048Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 85%
+2024-02-28T14:48:03.127Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 86%
+2024-02-28T14:48:03.160Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 87%
+2024-02-28T14:48:03.175Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 88%
+2024-02-28T14:48:03.176Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 89%
+2024-02-28T14:48:03.199Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 90%
+2024-02-28T14:48:03.276Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 91%
+2024-02-28T14:48:03.303Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 92%
+2024-02-28T14:48:03.316Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 93%
+2024-02-28T14:48:03.321Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 94%
+2024-02-28T14:48:03.353Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 95%
+2024-02-28T14:48:03.433Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 96%
+2024-02-28T14:48:03.454Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 97%
+2024-02-28T14:48:03.466Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 98%
+2024-02-28T14:48:03.473Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 99%
+2024-02-28T14:48:03.502Z [Modules] Streaming discord_voice@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 100%
+2024-02-28T14:48:03.503Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2024-02-28T14:48:03.503Z [Modules] Installing updates...
+2024-02-28T14:48:03.503Z [Modules] Installing discord_desktop_core@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-02-28T14:48:03.558Z [Modules] Installing discord_erlpack@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-02-28T14:48:03.591Z [Modules] Installing discord_spellcheck@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-02-28T14:48:04.084Z [Modules] Installing discord_utils@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-02-28T14:48:04.159Z [Modules] Installing discord_voice@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-02-28T14:48:04.580Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2024-02-28T14:48:04.580Z [Modules] Checking for host updates.
+2024-02-28T14:48:04.712Z [Modules] Host is up to date.
+2024-02-28T14:48:04.712Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-28T14:48:04.714Z [Modules] No module updates available.
+2024-02-28T14:48:06.959Z [Modules] Starting to install discord_krisp...
+2024-02-28T14:48:06.959Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-02-28T14:48:06.959Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-02-28T14:48:06.976Z [Modules] Starting to install discord_game_utils...
+2024-02-28T14:48:07.241Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 1%
+2024-02-28T14:48:07.242Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 2%
+2024-02-28T14:48:07.353Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 3%
+2024-02-28T14:48:07.354Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 4%
+2024-02-28T14:48:07.354Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 5%
+2024-02-28T14:48:07.355Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 6%
+2024-02-28T14:48:07.356Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 7%
+2024-02-28T14:48:07.356Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 8%
+2024-02-28T14:48:07.428Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 9%
+2024-02-28T14:48:07.504Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 10%
+2024-02-28T14:48:07.643Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 11%
+2024-02-28T14:48:07.643Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 12%
+2024-02-28T14:48:07.644Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 13%
+2024-02-28T14:48:07.644Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 14%
+2024-02-28T14:48:07.709Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 15%
+2024-02-28T14:48:07.710Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 16%
+2024-02-28T14:48:07.763Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 17%
+2024-02-28T14:48:07.764Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 18%
+2024-02-28T14:48:07.764Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 19%
+2024-02-28T14:48:07.764Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 20%
+2024-02-28T14:48:07.828Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 21%
+2024-02-28T14:48:07.829Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 22%
+2024-02-28T14:48:07.885Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 23%
+2024-02-28T14:48:07.885Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 24%
+2024-02-28T14:48:07.888Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 25%
+2024-02-28T14:48:07.888Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 26%
+2024-02-28T14:48:07.947Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 27%
+2024-02-28T14:48:07.984Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 28%
+2024-02-28T14:48:07.989Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 29%
+2024-02-28T14:48:07.989Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 30%
+2024-02-28T14:48:08.009Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 31%
+2024-02-28T14:48:08.085Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 32%
+2024-02-28T14:48:08.171Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 33%
+2024-02-28T14:48:08.239Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 34%
+2024-02-28T14:48:08.240Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 35%
+2024-02-28T14:48:08.365Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 36%
+2024-02-28T14:48:08.366Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 37%
+2024-02-28T14:48:08.371Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 38%
+2024-02-28T14:48:08.371Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 39%
+2024-02-28T14:48:08.371Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 40%
+2024-02-28T14:48:08.372Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 41%
+2024-02-28T14:48:08.378Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 42%
+2024-02-28T14:48:08.379Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 43%
+2024-02-28T14:48:08.434Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 44%
+2024-02-28T14:48:08.435Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 45%
+2024-02-28T14:48:08.441Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 46%
+2024-02-28T14:48:08.526Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 47%
+2024-02-28T14:48:08.552Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 48%
+2024-02-28T14:48:08.617Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 49%
+2024-02-28T14:48:08.693Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 50%
+2024-02-28T14:48:08.694Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 51%
+2024-02-28T14:48:08.694Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 52%
+2024-02-28T14:48:08.740Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 53%
+2024-02-28T14:48:08.741Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 54%
+2024-02-28T14:48:08.906Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 55%
+2024-02-28T14:48:08.907Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 56%
+2024-02-28T14:48:08.908Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 57%
+2024-02-28T14:48:08.908Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 58%
+2024-02-28T14:48:08.908Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 59%
+2024-02-28T14:48:08.931Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 60%
+2024-02-28T14:48:08.931Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 61%
+2024-02-28T14:48:08.993Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 62%
+2024-02-28T14:48:08.994Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 63%
+2024-02-28T14:48:09.032Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 64%
+2024-02-28T14:48:09.063Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 65%
+2024-02-28T14:48:09.095Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 66%
+2024-02-28T14:48:09.095Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 67%
+2024-02-28T14:48:09.095Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 68%
+2024-02-28T14:48:09.096Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 69%
+2024-02-28T14:48:09.157Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 70%
+2024-02-28T14:48:09.229Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 71%
+2024-02-28T14:48:09.229Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 72%
+2024-02-28T14:48:09.245Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 73%
+2024-02-28T14:48:09.265Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 74%
+2024-02-28T14:48:09.265Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 75%
+2024-02-28T14:48:09.268Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 76%
+2024-02-28T14:48:09.293Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 77%
+2024-02-28T14:48:09.372Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 78%
+2024-02-28T14:48:09.389Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 79%
+2024-02-28T14:48:09.409Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 80%
+2024-02-28T14:48:09.414Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 81%
+2024-02-28T14:48:09.428Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 82%
+2024-02-28T14:48:09.502Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 83%
+2024-02-28T14:48:09.533Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 84%
+2024-02-28T14:48:09.605Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 85%
+2024-02-28T14:48:09.716Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 86%
+2024-02-28T14:48:09.717Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 87%
+2024-02-28T14:48:09.717Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 88%
+2024-02-28T14:48:09.718Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 89%
+2024-02-28T14:48:09.776Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 90%
+2024-02-28T14:48:09.777Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 91%
+2024-02-28T14:48:09.777Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 92%
+2024-02-28T14:48:09.827Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 93%
+2024-02-28T14:48:09.828Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 94%
+2024-02-28T14:48:09.828Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 95%
+2024-02-28T14:48:09.892Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 96%
+2024-02-28T14:48:09.892Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 97%
+2024-02-28T14:48:09.911Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 98%
+2024-02-28T14:48:09.912Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 99%
+2024-02-28T14:48:09.930Z [Modules] Streaming discord_krisp@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 100%
+2024-02-28T14:48:09.931Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-02-28T14:48:09.931Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-02-28T14:48:09.931Z [Modules] Installing discord_krisp@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-02-28T14:48:10.100Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 1%
+2024-02-28T14:48:10.103Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 2%
+2024-02-28T14:48:10.105Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 3%
+2024-02-28T14:48:10.109Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 4%
+2024-02-28T14:48:10.110Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 5%
+2024-02-28T14:48:10.114Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 6%
+2024-02-28T14:48:10.115Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 7%
+2024-02-28T14:48:10.118Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 8%
+2024-02-28T14:48:10.121Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 9%
+2024-02-28T14:48:10.125Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 10%
+2024-02-28T14:48:10.127Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 11%
+2024-02-28T14:48:10.129Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 12%
+2024-02-28T14:48:10.132Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 13%
+2024-02-28T14:48:10.134Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 14%
+2024-02-28T14:48:10.137Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 15%
+2024-02-28T14:48:10.139Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 16%
+2024-02-28T14:48:10.143Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 17%
+2024-02-28T14:48:10.144Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 18%
+2024-02-28T14:48:10.147Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 19%
+2024-02-28T14:48:10.209Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 20%
+2024-02-28T14:48:10.213Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 21%
+2024-02-28T14:48:10.216Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 23%
+2024-02-28T14:48:10.248Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-28T14:48:10.365Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 26%
+2024-02-28T14:48:10.365Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 32%
+2024-02-28T14:48:10.366Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 34%
+2024-02-28T14:48:10.366Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 37%
+2024-02-28T14:48:10.366Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 40%
+2024-02-28T14:48:10.367Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 42%
+2024-02-28T14:48:10.367Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 47%
+2024-02-28T14:48:10.367Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 55%
+2024-02-28T14:48:10.368Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 57%
+2024-02-28T14:48:10.382Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 58%
+2024-02-28T14:48:10.402Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 60%
+2024-02-28T14:48:10.402Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 64%
+2024-02-28T14:48:10.402Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 67%
+2024-02-28T14:48:10.413Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 69%
+2024-02-28T14:48:10.413Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 75%
+2024-02-28T14:48:10.413Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 76%
+2024-02-28T14:48:10.435Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 78%
+2024-02-28T14:48:10.462Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 80%
+2024-02-28T14:48:10.479Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 82%
+2024-02-28T14:48:10.567Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 83%
+2024-02-28T14:48:10.570Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 84%
+2024-02-28T14:48:10.573Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 85%
+2024-02-28T14:48:10.575Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 86%
+2024-02-28T14:48:10.579Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 87%
+2024-02-28T14:48:10.581Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 88%
+2024-02-28T14:48:10.584Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 89%
+2024-02-28T14:48:10.587Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 90%
+2024-02-28T14:48:10.590Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 91%
+2024-02-28T14:48:10.593Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 92%
+2024-02-28T14:48:10.595Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 93%
+2024-02-28T14:48:10.598Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 94%
+2024-02-28T14:48:10.600Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 95%
+2024-02-28T14:48:10.604Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 96%
+2024-02-28T14:48:10.605Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 97%
+2024-02-28T14:48:10.609Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 98%
+2024-02-28T14:48:10.610Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 99%
+2024-02-28T14:48:10.612Z [Modules] Streaming discord_game_utils@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 100%
+2024-02-28T14:48:10.629Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2024-02-28T14:48:10.629Z [Modules] Installing discord_game_utils@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-02-28T14:48:10.663Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-28T14:48:11.667Z [Modules] Checking for host updates.
+2024-02-28T14:48:11.742Z [Modules] Starting to install discord_rpc...
+2024-02-28T14:48:11.742Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-02-28T14:48:11.742Z [Modules] Streaming discord_rpc@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-02-28T14:48:11.778Z [Modules] Host is up to date.
+2024-02-28T14:48:11.779Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-28T14:48:11.780Z [Modules] No module updates available.
+2024-02-28T14:48:11.922Z [Modules] Streaming discord_rpc@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip: 38%
+2024-02-28T14:48:11.923Z [Modules] Streaming discord_rpc@1 to /home/kilan/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip: 100%
+2024-02-28T14:48:11.923Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-02-28T14:48:11.923Z [Modules] Installing discord_rpc@1 from /home/kilan/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-02-28T14:48:11.933Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-28T14:54:40.353Z [Modules] Modules initializing
+2024-02-28T14:54:40.353Z [Modules] Distribution: remote
+2024-02-28T14:54:40.353Z [Modules] Host updates: enabled
+2024-02-28T14:54:40.353Z [Modules] Module updates: enabled
+2024-02-28T14:54:40.353Z [Modules] Module install path: /home/kilan/.config/discord/0.0.43/modules
+2024-02-28T14:54:40.353Z [Modules] Module installed file path: /home/kilan/.config/discord/0.0.43/modules/installed.json
+2024-02-28T14:54:40.353Z [Modules] Module download path: /home/kilan/.config/discord/0.0.43/modules/pending
+2024-02-28T14:54:40.701Z [Modules] No updates to install
+2024-02-28T14:54:40.702Z [Modules] Checking for host updates.
+2024-02-28T14:54:40.864Z [Modules] Host is up to date.
+2024-02-28T14:54:40.864Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-28T14:54:40.911Z [Modules] No module updates available.
+2024-02-28T14:54:43.781Z [Modules] Checking for host updates.
+2024-02-28T14:54:43.865Z [Modules] Host is up to date.
+2024-02-28T14:54:43.865Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-28T14:54:43.867Z [Modules] No module updates available.

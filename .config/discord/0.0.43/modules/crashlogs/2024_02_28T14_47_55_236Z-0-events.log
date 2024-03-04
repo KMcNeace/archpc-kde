@@ -1,0 +1,33 @@
+2024-02-28T14:47:55.375Z 0: 
+
+----------------------------------------------
+2024-02-28T14:47:55.429Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/kilan/.config/discord/0.0.43/modules
+2024-02-28T14:47:55.461Z 2: ✅ webContents.created web1 ""
+2024-02-28T14:47:55.488Z 3: ✅ window.created win1 "discord"
+2024-02-28T14:47:56.499Z 4: ✅ webContents.did-finish-load web1
+2024-02-28T14:48:04.809Z 5: ✅ webContents.created web2 ""
+2024-02-28T14:48:04.847Z 6: ✅ window.created win2 "Discord"
+2024-02-28T14:48:07.293Z 7: ✅ webContents.did-finish-load web2
+2024-02-28T14:48:07.392Z 8: window.close win1
+2024-02-28T14:48:07.415Z 9: webContents.destroyed web1
+2024-02-28T14:48:07.415Z 10: window.closed win1
+2024-02-28T14:54:24.536Z 11: window.close win2
+2024-02-28T14:54:31.408Z 12: before-quit
+2024-02-28T14:54:31.408Z 13: window.close win2
+2024-02-28T14:54:31.469Z 14: webContents.destroyed web2
+2024-02-28T14:54:31.475Z 15: window.closed win2
+2024-02-28T14:54:40.371Z 0: 
+
+----------------------------------------------
+2024-02-28T14:54:40.404Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/kilan/.config/discord/0.0.43/modules
+2024-02-28T14:54:40.406Z 2: ✅ webContents.created web1 "index.html"
+2024-02-28T14:54:40.406Z 3: ✅ window.created win1 "discord"
+2024-02-28T14:54:40.725Z 4: ✅ webContents.did-finish-load web1
+2024-02-28T14:54:40.967Z 5: ✅ webContents.created web2 ""
+2024-02-28T14:54:40.970Z 6: ✅ window.created win2 "Discord"
+2024-02-28T14:54:42.629Z 7: ✅ webContents.did-finish-load web2
+2024-02-28T14:54:42.727Z 8: window.close win1
+2024-02-28T14:54:42.747Z 9: webContents.destroyed web1
+2024-02-28T14:54:42.748Z 10: window.closed win1
+2024-02-28T14:54:43.532Z 11: ✅ webContents.did-finish-load web2
+2024-02-28T15:33:08.265Z 12: before-quit

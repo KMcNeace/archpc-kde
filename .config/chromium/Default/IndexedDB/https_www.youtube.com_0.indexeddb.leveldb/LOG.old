@@ -1,0 +1,4 @@
+2024/03/04-15:55:52.189 26d60 Reusing MANIFEST /home/kilan/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/04-15:55:52.190 26d60 Recovering log #37
+2024/03/04-15:55:52.191 26d60 Reusing old log /home/kilan/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000037.log 
+2024/03/04-15:55:52.191 26d60 Delete type=2 #36

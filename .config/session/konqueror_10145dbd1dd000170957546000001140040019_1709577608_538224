@@ -1,0 +1,48 @@
+[1]
+3440x1440 screen: Height=476
+3440x1440 screen: Width=692
+3440x1440 screen: XPosition=0
+3440x1440 screen: YPosition=0
+FullScreen=false
+HDMI-0=HDMI-0
+HistoryItemViewT0_0Buffer=\x00\x00\x00\nkonq:blank\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff
+HistoryItemViewT0_0DoPost=false
+HistoryItemViewT0_0LocationBarURL=konq:blank
+HistoryItemViewT0_0PageReferrer=
+HistoryItemViewT0_0PageSecurity=0
+HistoryItemViewT0_0PostContentType=
+HistoryItemViewT0_0PostData=
+HistoryItemViewT0_0StrServiceName=webenginepart
+HistoryItemViewT0_0StrServiceType=text/html
+HistoryItemViewT0_0Title=konq:blank
+HistoryItemViewT0_0Url=konq:blank
+RootItem=Tabs0
+State=AAAA/wAAAAD9AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAMAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGgBzAHAAZQBlAGMAaABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+StatusBar=Enabled
+Tabs0_Children=ViewT0
+Tabs0_activeChildIndex=0
+ViewT0_CurrentHistoryItem=0
+ViewT0_LinkedView=false
+ViewT0_LockedLocation=false
+ViewT0_NumberOfHistoryItems=1
+ViewT0_PassiveMode=false
+ViewT0_ServiceName=webenginepart
+ViewT0_ServiceType=text/html
+ViewT0_ShowStatusBar=false
+ViewT0_ToggleView=false
+
+[Number]
+NumberOfWindows=1
+
+[PreloadedWindows]
+PreloadedWindowsNumber=1
+
+[WindowProperties1]
+3440x1440 screen: Height=476
+3440x1440 screen: Width=692
+3440x1440 screen: XPosition=0
+3440x1440 screen: YPosition=0
+ClassName=KonqMainWindow
+HDMI-0=HDMI-0
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAMAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGgBzAHAAZQBlAGMAaABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=

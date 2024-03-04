@@ -1,0 +1,6 @@
+2024/02/28-08:54:40.346 cadf Reusing MANIFEST /home/kilan/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/28-08:54:40.348 cadf Recovering log #4
+2024/02/28-08:54:40.348 cadf Reusing old log /home/kilan/.config/discord/Local Storage/leveldb/000004.log 
+2024/02/28-08:58:32.478 cb01 Level-0 table #8: started
+2024/02/28-08:58:32.494 cb01 Level-0 table #8: 2964008 bytes OK
+2024/02/28-08:58:32.494 cb01 Delete type=0 #4

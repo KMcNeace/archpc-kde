@@ -1,0 +1,13 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+3440x1440 screen: Height=480
+3440x1440 screen: Width=640
+3440x1440 screen: XPosition=0
+3440x1440 screen: YPosition=0
+ClassName=KMixWindow
+HDMI-0=HDMI-0
+ObjectName=KMixWindow
+State=AAAA/wAAAAD9AAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled

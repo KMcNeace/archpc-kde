@@ -1,0 +1,9 @@
+2024-03-03 14:37:20.027 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kilan/.vscode-oss/extensions
+2024-03-03 14:37:20.259 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kilan/.vscode-oss/extensions
+2024-03-03 14:37:20.261 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kilan/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kilan/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30083)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30198)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36634)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29080)
+    at async v.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16226)
+    at async X.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:107729)

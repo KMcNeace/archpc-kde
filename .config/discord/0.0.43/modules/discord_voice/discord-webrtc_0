@@ -1,0 +1,309 @@
+[2024-02-28 08:54:43.340] [52212] (engine.cpp:541): Created native Engine, time: Wed Feb 28 08:54:43 2024 CST, logPath: /home/kilan/.config/discord/0.0.43/modules/discord_voice/, logLevel: 2
+[2024-02-28 08:54:43.340] [52212] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-28 08:54:43.340] [52212] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-28 08:54:43.340] [52212] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-28 08:54:43.340] [52212] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-28 08:54:43.340] [52212] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:354): ActiveAudioLayer
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:143): current platform is Linux
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:991): PlatformAudioLayer
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:344): AttachAudioBuffer
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2024-02-28 08:54:43.341] [52212] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2024-02-28 08:54:43.341] [52212] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2024-02-28 08:54:43.341] [52212] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2024-02-28 08:54:43.341] [52212] (audio_engine.cpp:400): Creating audio engine: standard
+[2024-02-28 08:54:43.341] [52212] (audio_device_impl.cc:364): Init
+[2024-02-28 08:54:43.342] [52212] (audio_device_impl.cc:364): Init
+[2024-02-28 08:54:43.344] [52212] (audio_coding.cpp:149): Using software Opus decoder
+[2024-02-28 08:54:43.344] [52212] (audio_coding.cpp:166): Using software Opus encoder
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2024-02-28 08:54:43.344] [52212] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:895): RegisterAudioCallback
+[2024-02-28 08:54:43.344] [52212] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-28 08:54:43.344] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-28 08:54:43.344] [52212] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-28 08:54:43.344] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-28 08:54:43.344] [52212] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-28 08:54:43.344] [52212] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-28 08:54:43.344] [52212] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:619): output: 1
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-28 08:54:43.344] [52212] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2024-02-28 08:54:43.344] [52212] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2024-02-28 08:54:43.344] [52212] (audio_device_impl.cc:914): output: 0
+[2024-02-28 08:54:43.344] [52212] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-28 08:54:43.344] [52212] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2024-02-28 08:54:43.344] [52212] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2024-02-28 08:54:43.344] [52212] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-28 08:54:43.344] [52212] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2024-02-28 08:54:43.344] [52212] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2024-02-28 08:54:43.344] [52212] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2024-02-28 08:54:43.344] [52212] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2024-02-28 08:54:43.344] [52212] (captured_audio_processor.cpp:115): SetNoiseCancellation: 0
+[2024-02-28 08:54:43.345] [52212] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2024-02-28 08:54:43.345] [52212] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:249): * audioInput:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:252): - default: alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor ()
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:254): * audioOutput:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:248): *** OnDevicesChanged:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:249): * audioInput:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:252): - default: alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor ()
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:254): * audioOutput:
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:257): - default: TU104 HD Audio Controller Digital Stereo (HDMI) ()
+[2024-02-28 08:54:43.345] [52212] (engine.cpp:257): - TU104 HD Audio Controller Digital Stereo (HDMI) ()
+[2024-02-28 08:54:43.414] [52212] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-28 08:54:43.414] [52212] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-28 08:54:43.414] [52212] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-28 08:54:43.414] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-28 08:54:43.414] [52212] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-28 08:54:43.414] [52212] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-28 08:54:43.415] [52212] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-28 08:54:43.415] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-28 08:54:43.415] [52212] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-28 08:54:43.415] [52212] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-28 08:54:43.415] [52212] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-28 08:54:43.415] [52054] (discord.cpp:755): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 269166, Version Hash: d0230a233392fc8b32b443371a5f2525e0aa2f23"]
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:619): output: 1
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-28 08:54:43.415] [52212] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-28 08:54:43.415] [52212] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-28 08:54:43.415] [52212] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-28 08:54:43.415] [52212] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-28 08:54:43.436] [52054] (discord.cpp:755): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2024-02-28 08:54:43.467] [52054] (discord.cpp:755): JS console: ["%c[default]","[NATIVE INFO] host 0.0.43, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2024-02-28 08:54:43.492] [52212] (audio_engine.cpp:151): Setting audio input device: 'default'
+[2024-02-28 08:54:43.492] [52212] (audio_device_impl.cc:826): RecordingIsInitialized
+[2024-02-28 08:54:43.492] [52212] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2024-02-28 08:54:43.492] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2024-02-28 08:54:43.492] [52212] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2024-02-28 08:54:43.492] [52212] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2024-02-28 08:54:43.493] [52212] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2024-02-28 08:54:43.493] [52212] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2024-02-28 08:54:43.493] [52212] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2024-02-28 08:54:43.493] [52212] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2024-02-28 08:54:43.493] [52212] (audio_engine.cpp:168): Setting audio output device: 'default'
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:619): output: 1
+[2024-02-28 08:54:43.493] [52212] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2024-02-28 08:54:43.493] [52212] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2024-02-28 08:54:43.494] [52054] (discord.cpp:755): JS console: ["Initializing krisp module"]
+[2024-02-28 08:54:43.532] [52054] (discord.cpp:755): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2024-02-28 08:54:43.583] [52054] (discord.cpp:755): JS console: ["[FAST CONNECT] connected in 553ms"]
+[2024-02-28 08:54:43.610] [52054] (discord.cpp:755): JS console: ["%c[Spellchecker]","Switching to en-US","(available)"]
+[2024-02-28 08:54:43.812] [52054] (discord.cpp:755): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2024-02-28 08:54:43.892] [52054] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2024-02-28 08:54:43.893] [52054] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2024-02-28 08:54:43.893] [52054] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 1 ms"]
+[2024-02-28 08:54:43.930] [52054] (discord.cpp:755): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2024-02-28 08:54:43.932] [52054] (discord.cpp:755): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2024-02-28 08:54:44.655] [52054] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY] took 763ms, as 01e0abf47c2bc64b657309c1eb14cad0"]
+[2024-02-28 08:54:44.676] [52054] (discord.cpp:755): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2024-02-28 08:54:44.677] [52054] (discord.cpp:755): JS console: ["%c[DatabaseManager]","removing database (user: 240552098024914944, database: undefined)"]
+[2024-02-28 08:54:44.689] [52054] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-28 08:54:44.698] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:54:44.699] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","Added account: hooperdoeyt"]
+[2024-02-28 08:54:44.727] [52054] (discord.cpp:755): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 835ms"]
+[2024-02-28 08:54:45.324] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 635ms"]
+[2024-02-28 08:54:45.959] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:54:46.233] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 912ms"]
+[2024-02-28 08:54:47.145] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:54:47.384] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 5142ms"]
+[2024-02-28 08:54:52.525] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:54:52.760] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 9045ms"]
+[2024-02-28 08:55:01.809] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:55:02.073] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 26598ms"]
+[2024-02-28 08:55:28.675] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:55:28.937] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 08:56:28.940] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:56:29.435] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 08:57:29.438] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:57:29.874] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 08:58:29.878] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:58:30.302] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 08:59:30.305] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 08:59:30.745] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:00:30.748] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:00:31.158] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:01:31.162] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:01:32.367] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:02:32.370] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:02:32.804] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:03:32.809] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:03:33.178] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:04:33.181] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:04:33.589] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:05:33.592] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:05:34.000] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:06:34.004] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:06:34.447] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:07:34.450] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:07:34.849] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:08:34.852] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:08:35.294] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:09:35.298] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:09:35.873] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:10:35.877] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:10:36.282] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:11:36.286] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:11:36.706] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:12:36.709] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:12:37.111] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:13:37.114] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:13:37.518] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:14:37.521] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:14:37.931] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:15:37.931] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:15:38.359] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:16:38.363] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:16:38.796] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:17:38.800] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:17:39.227] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:18:39.232] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:18:39.598] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:19:39.603] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:19:39.927] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:20:24.048] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:20:24.057] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:24.062] [52054] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-28 09:20:29.094] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:20:29.098] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:29.099] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:34.062] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:34.106] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:20:34.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:39.134] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:20:39.140] [52054] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-28 09:20:39.927] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:20:40.240] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:20:44.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:44.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:54.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:54.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:59.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:20:59.103] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:04.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:04.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:09.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:09.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:14.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:14.109] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:19.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:19.103] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:24.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:24.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:29.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:29.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:34.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:34.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:40.240] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:21:40.611] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:21:44.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:44.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:54.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:54.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:59.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:21:59.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:04.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:04.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:09.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:09.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:14.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:14.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:19.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:19.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:24.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:24.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:29.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:29.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:34.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:34.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:39.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:40.611] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:22:41.095] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:22:44.061] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:44.108] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:49.102] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:22:49.394] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:23:41.099] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:23:41.466] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:24:41.470] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:24:41.853] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:25:41.856] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:25:42.234] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:26:42.237] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:26:42.606] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:27:42.609] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:27:42.958] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:28:42.962] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:28:43.385] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:29:43.388] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:29:44.033] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:30:44.037] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:30:44.648] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:31:44.651] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:31:45.013] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:32:36.994] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:32:37.010] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:32:37.016] [52054] (discord.cpp:755): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2024-02-28 09:32:45.016] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Connecting"]
+[2024-02-28 09:32:45.371] [52054] (discord.cpp:755): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2024-02-28 09:32:47.011] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:32:47.047] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]
+[2024-02-28 09:32:47.048] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:32:47.048] [52054] (discord.cpp:755): JS console: ["%c[OverlayUsageStatsManager]","ScreenTypeAnalytics: Unknown screen type: -1881150032","-1881150032"]
+[2024-02-28 09:32:52.078] [52054] (discord.cpp:755): JS console: ["%c[RunningGameStore]","games","[object Object]"]

@@ -1,0 +1,72 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Window settings for chromium
+clientmachine=localhost
+opacityactive=100
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+title=configuration - How do I make a window transparent in KDE? - Ask Ubuntu - Chromium
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=chromium
+wmclassmatch=1
+
+[2]
+Description=Window settings for systemsettings
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+opacityinactive=70
+opacityinactiverule=2
+title=General Behavior — System Settings
+types=1
+windowrole=MainWindow#1
+windowrolematch=1
+wmclass=systemsettings
+wmclassmatch=1
+
+[6818b744-04f2-45de-b6e6-0d6f3d2ef43e]
+Description=Window settings for systemsettings
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+opacityinactive=70
+opacityinactiverule=2
+title=General Behavior — System Settings
+types=1
+windowrole=MainWindow#1
+windowrolematch=1
+wmclass=systemsettings
+wmclassmatch=1
+
+[General]
+count=3
+rules=d64c2878-bc8f-416f-a750-a66d2d96bdfe,1,2
+
+[d64c2878-bc8f-416f-a750-a66d2d96bdfe]
+Description=Application settings for alacritty
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+opacityinactive=75
+opacityinactiverule=2
+wmclass=alacritty
+wmclassmatch=1
+
+[f865c64b-3e52-4bf4-9512-2bee24dbeb35]
+Description=Window settings for chromium
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+title=configuration - How do I make a window transparent in KDE? - Ask Ubuntu - Chromium
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=chromium
+wmclassmatch=1

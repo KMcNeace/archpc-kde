@@ -1,0 +1,35 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10145dbd1dd000170957493200001140040005
+clientId2=10145dbd1dd000170957493200001140040006
+clientId3=10145dbd1dd000170957493300001140040007
+clientId4=10145dbd1dd000170957493700001140040009
+clientId5=10145dbd1dd000170957753100001140040037
+count=5
+discardCommand2[$e]=rm,$HOME/.config/session/kmix_10145dbd1dd000170957493200001140040006_1709577608_538204
+discardCommand5[$e]=rm,$HOME/.config/session/konsole_10145dbd1dd000170957753100001140040037_1709577608_538288
+program1=/usr/bin/kclockd
+program2=/usr/bin/kmix
+program3=/usr/lib/DiscoverNotifier
+program4=/usr/bin/kalendarac
+program5=/usr/bin/konsole
+restartCommand1=/usr/bin/kclockd,-session,10145dbd1dd000170957493200001140040005_1709577608_538201
+restartCommand2=/usr/bin/kmix,-session,10145dbd1dd000170957493200001140040006_1709577608_538204
+restartCommand3=/usr/lib/DiscoverNotifier,-session,10145dbd1dd000170957493300001140040007_1709577608_538210
+restartCommand4=/usr/bin/kalendarac,-session,10145dbd1dd000170957493700001140040009_1709577608_538210
+restartCommand5=/usr/bin/konsole,-session,10145dbd1dd000170957753100001140040037_1709577608_538288
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+userId1=kilan
+userId2=kilan
+userId3=kilan
+userId4=kilan
+userId5=kilan

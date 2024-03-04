@@ -1,0 +1,3 @@
+2024-03-03 14:39:15.622 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/kilan/.config/neofetch/config.conf","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-03-03 14:39:15.924 [info] Started local extension host with pid 6567.
+2024-03-03 14:39:18.609 [info] [perf] Render performance baseline is 25ms

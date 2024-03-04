@@ -1,0 +1,24 @@
+2024-02-28 11:10:33.865 [info] Extension host with pid 4600 started
+2024-02-28 11:10:33.871 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-28 11:10:33.897 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-28 11:10:33.974 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-28 11:10:34.019 [info] Eager extensions activated
+2024-02-28 11:10:34.028 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-28 11:10:34.030 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-28 11:10:34.045 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-02-28 11:10:34.089 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-02-28 11:10:34.330 [error] Activating extension GitHub.vscode-pull-request-github failed due to an error:
+2024-02-28 11:10:34.330 [error] Error: Extension 'GitHub.vscode-pull-request-github' CANNOT use API proposal: diffCommand.
+Its package.json#enabledApiProposals-property declares:  but NOT diffCommand.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.vscode-pull-request-github
+	at E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:138:51177)
+	at Object.registerDiffInformationCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:21335)
+	at V1 (/home/kilan/.vscode-oss/extensions/github.vscode-pull-request-github-0.80.1-universal/dist/extension.js:2001:9875)
+	at B2 (/home/kilan/.vscode-oss/extensions/github.vscode-pull-request-github-0.80.1-universal/dist/extension.js:2120:4420)
+	at $2 (/home/kilan/.vscode-oss/extensions/github.vscode-pull-request-github-0.80.1-universal/dist/extension.js:2120:8378)
+	at async q2 (/home/kilan/.vscode-oss/extensions/github.vscode-pull-request-github-0.80.1-universal/dist/extension.js:2120:5739)
+	at async c.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6256)
+	at async c.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:6219)
+	at async c.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:140:5676)
+2024-02-28 11:13:13.289 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-28 11:13:13.292 [info] Extension host with pid 4600 exiting with code 0

@@ -1,0 +1,48 @@
+/*
+ * This file is part of Adblock Plus <https://adblockplus.org/>,
+ * Copyright (C) 2006-present eyeo GmbH
+ *
+ * Adblock Plus is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * Adblock Plus is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Adblock Plus.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#__abp-overlay-onpage-dialog,
+#__abp-overlay-onpage-dialog iframe
+{
+  all: unset !important;
+}
+
+#__abp-overlay-onpage-dialog
+{
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  top: 35px !important;
+}
+
+:root:not([dir]) #__abp-overlay-onpage-dialog,
+:root[dir="ltr"] #__abp-overlay-onpage-dialog
+{
+  right: 35px !important;
+}
+
+:root[dir="rtl"] #__abp-overlay-onpage-dialog
+{
+  left: 35px !important;
+}
+
+#__abp-overlay-onpage-dialog iframe
+{
+  width: 280px !important;
+  height: var(--abp-overlay-onpage-dialog-height) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15) !important;
+}
