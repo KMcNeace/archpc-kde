@@ -1,4 +1,6 @@
 Backup for my KDE Desktop, also contains my Hyprland dots as well! 
+also sorry foe the messy files. i rushed this upload, ill clean it up soon when i have some time
+
 
 Screenshots! 
 ![2024-03-04_16-19_1](https://github.com/KMcNeace/archpc-kde/assets/134442804/e9b073e7-828a-4edb-ba3c-d3eeffdab903)
