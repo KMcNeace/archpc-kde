@@ -1,5 +1,6 @@
 Backup for my KDE Desktop, also contains my Hyprland dots as well! 
-also sorry foe the messy files. i rushed this upload, ill clean it up soon when i have some time
+
+Also sorry for the messy files. I rushed this upload, ill clean it up soon when i have some time
 
 
 Screenshots! 
